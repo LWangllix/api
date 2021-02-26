@@ -1,0 +1,41 @@
+.Card{
+    width: 30rem;
+    box-shadow: 1px 1px 10px;
+    border-radius: 5%;
+    padding: 2rem;
+    margin: 2rem;
+    font-family: 'Roboto' !important;
+    transform: scale(0.8);
+    
+}
+
+.gif{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+}
+
+.Name{
+    color:#4d4d4d;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+}
+
+
+
+@media(max-width: 450px){
+    .card{
+        width: 20rem;
+    }
+
+    .gif{
+        width: 15rem;
+        height: 15rem;
+    }
+
+
+
+
+}

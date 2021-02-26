@@ -1,0 +1,91 @@
+.recipeCard{
+  
+    padding: 1rem;
+    display: flex;
+    color: #4d4d4d;
+    margin: 1rem;
+
+    
+}
+.alignn{
+    width: 100%;
+    display: flex;
+    margin-right: 3rem;
+    
+   
+}
+
+
+
+.content{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 13rem;
+}
+
+.content p{
+    margin: 0.5rem;
+    border-bottom: 2px solid black;
+    width: 12rem;
+}
+
+
+
+
+.content p strong{
+   display: inline-block;
+   width: 7rem;
+}
+.content h2{
+    font-weight: 500;
+    margin:0;
+}
+
+
+.content button{
+    padding: 0.8rem;
+    background-color: #33adff;
+    color: #e6e6e6;
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    margin-top: 0.3rem;
+}
+
+
+@media(max-width: 1410px){
+   .alignn{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0 ;
+  }
+  .alignn img{
+      order: 1;
+  }
+
+  .content{
+      order: 2;
+      align-items: center;
+      margin:0;
+  }
+
+
+}
+
+@media(max-width: 860px){
+    .alignn img{
+        width: 15rem;
+        height: 15rem;
+    }
+ 
+  
+  }
+
+
+  
+ 

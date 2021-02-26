@@ -1,0 +1,114 @@
+.searchCard{
+    align-self: flex-end;
+    background-color: #cccccc;
+    width: 27rem;
+    height: 27rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 2rem 5rem 1rem 1rem;
+   padding: 2rem;
+   
+}
+
+.content>p{
+    
+    color:  #4d4d4d;
+    font-size: 1.7rem;
+    width: 45%;
+}
+.searchCard p {
+    color: #4d4d4d;
+    font-size: 1.3rem;
+}
+
+.searchCard input{
+    background-color: #bfbfbf;
+    height: 3rem;
+    width: 12rem;
+    border:  none;
+    margin-bottom: 1rem;
+    margin: 1rem;
+    padding-right: 1rem;
+    font-size: larger;
+}
+
+.searchCard button{
+    background-color: #33adff;
+    border: none;
+    color:  #e6e6e6;
+    font-weight: 900;
+    width: 12rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+
+@media(max-width: 1410px){
+    .content{
+        flex-direction: column;
+     text-align: center;
+     
+    }
+
+    .searchCard{
+        align-self: center;
+        margin:0;
+    } 
+
+    .content>p{
+    
+       
+        width: 100%;
+    }
+  
+  }
+
+
+  
+@media(max-width: 600px){
+  .searchCard{
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .searchCard button{
+      width: 7rem;
+      height: 2.5rem;
+      font-size: 0.9rem;
+      
+      
+     
+  }
+
+  .searchCard input{
+     margin-top: 0.5rem;
+    height: 2rem;
+  
+    
+}
+
+.searchCard p {
+  padding-bottom: 0rem;
+}
+
+  
+  }
+
+  @media(max-width: 400px){
+  
+    .searchCard button{
+        width: 6rem;
+        height: 3rem;
+    }
+    
+    }
+  

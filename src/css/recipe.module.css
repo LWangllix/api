@@ -1,0 +1,42 @@
+.column{
+    display: flex;
+    flex-direction: column;   
+    margin-left: 2rem;
+}
+
+.column ul li{
+    padding: 0.25rem;
+}
+
+.column h3{
+    margin:0;
+}
+
+.column p {
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    color: hsl(210, 99%, 49%)
+}
+
+@media(max-width: 1410px){
+    .column{
+        order: 3;
+        align-items: center;
+        margin-top: 1rem;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .column ul {
+        list-style-type: none;
+        padding: 0;
+        
+        
+    }
+    .column p{
+        margin-left: 0;
+    }
+ 
+  
+  }

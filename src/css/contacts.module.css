@@ -1,0 +1,39 @@
+
+
+.heading{
+    
+    font-size: 3.5rem;
+    font-weight: 900;
+    color:#99d6ff ;
+}
+
+.g{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph{
+    color:#4d4d4d;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 40%;
+    line-height: 2.3rem;
+    font-weight: 600;
+ 
+}
+
+
+
+    
+ 
+  
+  
+
+  @media(max-width: 860px){
+    .paragraph{
+        width: 95%;
+    }
+ 
+  
+  }

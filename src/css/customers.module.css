@@ -1,0 +1,63 @@
+.custsCard{
+  display: flex;
+  flex-direction: column;
+  
+}
+ .name {
+    font-size: calc(1.5rem*0.9);
+    font-family: 'Arvo';
+    color: #4d4d4d;
+    padding: 0.5rem;
+    background-color: #cccccc;
+    border-radius: 10rem;
+    
+    
+    margin-bottom: 0.3rem;
+}
+ .name p {
+    margin: 0;
+    text-align: center;
+}
+
+
+.fullCard{
+    border-radius: 5%;
+    background-color:  #d9d9d9;
+    padding:  2rem 0.5rem 0.5rem 0.5rem; 
+    margin: 1rem 0 0 1.7rem;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 1rem;
+    transform: scale(0.9);
+      
+}
+
+
+@media(max-width: 1410px){
+    .custsCard{
+        flex-direction: row;
+    }
+
+    .fullCard{
+        margin-left: 0;
+    }
+ 
+  
+  }
+
+  
+@media(max-width: 860px){
+    .custsCard{
+        flex-direction: column;
+    }
+
+    .fullCard{
+        margin-left: 0;
+    }
+ 
+  
+  }

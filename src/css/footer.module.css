@@ -1,0 +1,35 @@
+.footer{
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    background-color: #cccccc;
+    margin-top: 5rem;
+}
+
+.footer p, footer div p{
+    font-weight: 500;
+
+}
+
+.footer div p{
+ padding: 0 1rem;
+}
+
+.footer div {
+    display: flex;
+
+}
+
+@media screen and (max-width: 900px) {
+    .footer{
+        height: 9rem;
+    }
+    
+    .footer div {
+        
+        flex-direction: column;
+    }
+   }

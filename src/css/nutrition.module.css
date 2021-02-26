@@ -1,0 +1,46 @@
+.display{
+   
+    display: flex;
+    background-color: #d9d9d9;
+    flex-direction: column;
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border-radius: 2%;
+   
+   
+}
+
+
+.CustomerContent{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+    
+}
+
+
+
+@media(max-width: 1410px){
+    .CustomerContent{
+        flex-direction: column-reverse;
+      
+    }
+ 
+  
+  }
+
+  @media(max-width: 860px){
+    .display{
+        width: 95%;
+    }
+ 
+  
+  }

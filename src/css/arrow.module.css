@@ -1,0 +1,52 @@
+.arrow{
+    display: flex;
+    justify-content: center;
+    margin: 1.1rem 0;
+    position: fixed;
+    bottom: 0rem;
+    right: 5rem;
+    width: 5rem;
+    animation-name: up;
+    animation-duration: 2s;
+    transition: background-color 0.5s;
+    width: 70px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.28);
+}
+
+@keyframes up {
+    0% {
+     opacity: 0;
+     transform: translateY(-1rem);
+    }
+    100% {
+     opacity: 1;
+     transform: translateY(0);
+    }
+  }
+  
+ 
+
+.arrow::before{
+    content:' ';
+   
+    width: 0.3rem;
+    height: 1rem;
+    background-color: gray;
+    transform: rotate(50deg) translateY(3.5px);
+   
+}
+
+.arrow::after{
+    content:' ';
+ 
+    width: 0.3rem;
+    height: 1rem;
+    background-color: gray;
+    transform: rotate(-50deg) translateY(3.5px);
+    
+}
+
+.arrow:hover{
+    background-color:  rgba(0, 0, 0, 0.756);
+}

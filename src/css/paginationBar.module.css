@@ -1,0 +1,21 @@
+.buttons{
+  display: flex;
+ justify-content: center;
+  height: 3rem;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.button{
+    font-weight: 800;
+    padding: 0 1rem;
+    margin: 0.1rem;
+    color:hsl(210, 99%, 49%); 
+}
+
+.button1{
+  font-weight: 800;
+  padding: 0 1rem;
+  margin: 0.1rem;
+  color:hsl(210, 99%, 49%); 
+  background-color: hsla(210, 2%, 35%, 0.992);
+}
